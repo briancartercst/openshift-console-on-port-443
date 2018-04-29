@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
+  creationTimestamp: null
+  labels:
   name: openshift-master
 spec:
   ports:
@@ -9,3 +11,5 @@ spec:
     protocol: TCP
     targetPort: 8443
   selector: {}
+status:
+  loadBalancer: {}
