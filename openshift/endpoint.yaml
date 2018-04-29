@@ -5,7 +5,7 @@ metadata:
   name: openshift-master
 subsets:
 - addresses:
-  - ip: 127.0.0.1
+  - ip: 172.30.150.162
   ports:
   - name: 8443-tcp
     port: 443
